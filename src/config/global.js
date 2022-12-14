@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Diagnosticar e interpretar resultados de contaminación atmosférica según normativa vigente.',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz podrá favorecer procesos de comprensión, análisis y aplicación de diagnósticos de la problemática ambiental y de interpretación de mediciones de contaminación atmosférica, basándose en procedimientos técnicos y normativa ambiental vigente.',
+      'Se establecen criterios para el aprendizaje integral en el manejo de los vertimientos de acuerdo con lineamientos técnicos y legales a nivel nacional. Teniendo en cuenta las necesidades de los sectores económicos colombianos, el desarrollo tecnológico y la innovación en el diagnóstico para establecer alternativas en el tratamiento de las aguas residuales a partir de la recolección de información primaria, el diseño y planeación para el control del vertimiento.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),

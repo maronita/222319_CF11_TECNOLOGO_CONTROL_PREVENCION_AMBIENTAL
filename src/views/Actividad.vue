@@ -10,17 +10,20 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conceptos básicos para la evaluación de la ciberseguridad.
-        p.mb-4 Identificar conceptos básicos de evaluación de la ciberseguridad aplicables a la generación de controles de seguridad de los sistemas computacionales.  
+          h2 Bases Conceptuales 
+        p.mb-4 Reconocer Conceptos Básicos de Vertimientos
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Cuestionario
+              p.fw-bold.mb-0 Reconocer Conceptos Básicos de Vertimientos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
+    
+
+    
 
 </template>
 

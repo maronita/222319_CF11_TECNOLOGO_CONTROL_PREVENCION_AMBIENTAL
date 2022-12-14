@@ -3,302 +3,102 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.cs
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero 
+      .titulo-principal__numero
         span 4
-      h1 Fundamentos de SOC - <i>Security Operation Center</i>
+      h1 Parámetros físicos, químicos y microbiológicos del agua residual
 
-    p.mb-3 El centro de operaciones de seguridad, más comúnmente llamado "el SOC", es una unidad centralizada que se ocupa de los problemas de seguridad tanto a nivel organizativo como técnico. Esto ocurre mediante el uso de personas, procesos y capacidades para prestar servicios que pueden incluir:
+  
+    p.mb-3 Los parámetros fisicoquímicos del agua residual son mediciones que nos permiten determinar la calidad de un vertimiento ya sea para el tratamiento de este, para la descarga al alcantarillado o también a un cuerpo de agua, ver figura 2.
 
-    .row.justify-content-center(data-aos="zoom-in")
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.ps-2.pe-0
-              img(src='@/assets/curso/images/tema4/ico_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center Identificación y la reducción de riesgos.
+    .row.justify-content-center.align-items-star
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2
+          span Laboratorio de parámetros físico, químicos del agua
+    .row.align-items-center.justify-content-center
+      .col-10.col-lg-8(data-aos="fade-left")
+          img(src='@/assets/curso/images/tema4/img_1.png'  alt='')
+    .row.align-items-center.justify-content-center
+      .col-lg-8.mt-3
+        .jumbotron-3.p-2.mb-3
+          p.mb-0 Nota. Medición de pH, Oxígeno disuelto y turbidez en planta de tratamiento de artes gráficas. Pedraza, S. (2016). - SENA.  
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.ps-2.pe-0
-              img(src='@/assets/curso/images/tema4/ico_2.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center Tratamiento de vulnerabilidades.
-
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.ps-2.pe-0
-              img(src='@/assets/curso/images/tema4/ico_3.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center Adhesión a los requisitos de cumplimiento.
-
-    .row.justify-content-center
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.ps-2.pe-0
-              img(src='@/assets/curso/images/tema4/ico_4.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center Respuesta a los incidentes.
-
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.ps-2.pe-0
-              img(src='@/assets/curso/images/tema4/ico_5.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center Recogida de pruebas forenses.
-
-    p.mb-5 A continuación, se detallan algunos conceptos y elementos generales de las etapas de operación de un SOC, que favorecen un correcto funcionamiento:
-
-    .row.justify-content-center.align-items-star.mb-5
-      .col-8.col-lg-4(data-aos="fade-right") 
-          img(src='@/assets/curso/images/tema4/img_1.svg'  alt='')
-      .col-lg-8(data-aos="fade-left") 
-        LineaTiempoD.color-secundario.especial
-          .row(titulo='Establecer una política de evaluación de la seguridad de la información.' numero='1')
-            .col-md-12.col-lg-12.mb-4.mb-md-0 
-              h3.mb-3 Prevención
-              p.mb-0 Con base en la experiencia y adopción de buenas prácticas de ciberseguridad, el SOC debe apropiar medidas de prevención a nivel técnico y de conciencia en la organización. Entre las soluciones preventivas se pueden considerar aplicación de controles de seguridad (Firewalls, AntiMalware, etc.), el monitoreo continuo de la seguridad, el análisis y gestión de las vulnerabilidades técnicas. 
-          .row(titulo='Aplicar una metodología de evaluación.' numero='2')
-            .col-md-12.col-lg-12.mb-4.mb-md-0
-              h3.mb-3 Detección
-              p.mb-0 Consiste en el monitoreo constante de los eventos para detectar amenazas, vulnerabilidades, intrusiones y fallos de seguridad, para responder de manera rápida y eficaz. La principal herramienta que apoya esta etapa son las SIEM.
-               
-          .row(titulo='Analizar los hallazgos y desarrollar técnicas de mitigación de riesgos para abordar los puntos débiles.' numero='3')
-            .col-md-12.col-lg-12.mb-4.mb-md-0
-              p.mb-0 Las organizaciones deben realizar un análisis de las causas raíz al finalizar una evaluación para poder traducir los resultados en técnicas de mitigación procesables. Estos resultados pueden indicar que las organizaciones deben abordar no sólo las debilidades técnicas, sino también debilidades en procesos y procedimientos.
-
-          .row(titulo='Análisis' numero='3')
-            .col-md-12.col-lg-12.mb-4.mb-md-0
-              h3.mb-3 Análisis
-              p.mb-0 En esta etapa se deben analizar los eventos detectados para determinar si corresponden a amenazas reales o si son falsas alertas. Los sistemas SIEM ayudan en el proceso de análisis con su base de datos de conocimientos y experiencias anómalas, registradas previamente, así como en la configuración de las reglas de cumplimiento.
-
-          .row(titulo='Aplicar una metodología de evaluación' numero='4')
-            .col-md-12.col-lg-12.mb-4.mb-md-0
-              h3.mb-3 Respuesta 
-              p.mb-0 Consiste en las acciones que se toman para responder frente a un evento o incidentes de ciberseguridad; las mismas deben estar planificadas de manera que se apliquen las medidas o controles de forma eficaz.
-
-    Separador
-
-    #t_4_1.titulo-segundo
-      .h4 4.1  Objetivos
-
+    p.mb-3 De acuerdo con Pedraza (2016), se puede señalar:
     
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-8(data-aos="fade-right") 
-        .bloque-texto-c.color-custom-5.p-4
-          i.fas.fa-quote-right
-          h2.mb-2 El objetivo de un SOC es detectar, analizar y corregir incidentes de ciberseguridad utilizando soluciones tecnológicas y enfoques diferentes. Estos supervisan y analizan la actividad en redes, servidores, terminales, bases de datos, aplicaciones, sitios web y otros sistemas, en busca de señales débiles o comportamientos anormales que puedan indicar un incidente de seguridad o un compromiso.
-          span (Oracle.com, 2021).
-      .col-10.col-lg-4.col-sm-8(data-aos="fade-left")
-          img.mt-3(src='@/assets/curso/images/tema4/img_2.svg'  alt='')
-
-    .row.align-items-center.justify-content-center.fondo-4.mb-5.p-4
-      .col-10.col-lg-4.col-sm-8(data-aos="fade-left")
-          img(src='@/assets/curso/images/tema4/img_3.svg'  alt='').mb-3
-      .col-lg-6(data-aos="fade-right") 
-        p.mb-3 Los objetivos de un centro de operaciones de seguridad (SOC), deben enfocarse en:
-          ul.lista-ul--color.mt-3
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Reducir riesgos y tiempo de indisponibilidad de aplicaciones y servicios.
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Control y prevención de amenazas.
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Disminuir la carga de trabajo administrativa del personal de seguridad.
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Establecer el personal de seguridad y definir responsabilidades.
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Indicar los tiempos de soporte y escalamiento de eventos.
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Definir los procesos de auditoría y soportes de cumplimiento.
-            li
-              i.vineta-1(data-aos="fade-up")
-              p.mb-0 Responder a incidentes y recuperación.
-
-    Separador
-
-    #t_4_2.titulo-segundo
-      .h4 4.2  Alcance
-
-    p.mb-3 Los SOC maduros de todo el mundo suelen tener en común un conjunto básico de servicios de seguridad que pueden ser internos, subcontratados o incluso bajo demanda, lo que permite al SOC disponer de los servicios deseados cuando los necesite. Independientemente del enfoque de prestación, hay servicios que todo SOC debe ofrecer. Para resumir esos servicios comunes del SOC, se pueden definir las siguientes ofertas:
-
-    .row.justify-content-center.align-items-star.mb-5
-      .col-lg-10(data-aos="fade-left") 
+      .col-lg-8(data-aos="fade-left") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")
-          .row.justify-content-center.align-items-center(titulo="Gestión de riesgos")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_6.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Identificar y tomar decisiones para hacer frente a los riesgos de la organización. Desde la seguridad física de los activos hasta la corrección de las vulnerabilidades digitales que existen en el software. También aplica a la corrección de políticas deficientes y falta de educación en seguridad de los miembros de una organización.
-
-          .row.justify-content-center.align-items-center(titulo="Gestión de la vulnerabilidad")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_7.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Identificar y gestionar el riesgo de las vulnerabilidades técnicas: detección de vulnerabilidades en el software que se encuentra en los servidores, los ordenadores portátiles y los dispositivos IoT. La mayoría de los SOC utilizan escáneres de vulnerabilidad e inteligencia de amenazas externa para identificar las vulnerabilidades.
-
-          .row.justify-content-center.align-items-center(titulo="Gestión de incidentes")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_8.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Respuesta a eventos relacionados con seguridad: acciones como el aislamiento de los sistemas, la alerta a los miembros del equipo y la aplicación de medidas correctivas para resolver el problema. Tecnologías como las herramientas de orquestación, la inteligencia artificial y los playbooks se están haciendo muy populares para ayudar a los SOC en los servicios de respuesta a incidentes.
-
-          .row.justify-content-center.align-items-center(titulo="Análisis")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_9.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Análisis de varios tipos de artefactos: identificación de características, ingeniería inversa, análisis de vulnerabilidad/explotación, análisis causa raíz, reparación y análisis de mitigación.  El análisis utiliza herramientas como IDA Pro para desmontar el malware y comprender su funcionamiento.
-
-
-          .row.justify-content-center.align-items-center(titulo="Cumplimiento")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_10.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Evaluar y mantener los requisitos de cumplimiento de la organización: tanto los requisitos obligatorios por ley (HIPAA y PCI DSS), como los objetivos impulsados por la organización (norma NIST o ISO), que no son exigidos por la ley, pero que podrían ser considerados como una política requerida por la organización o sus clientes. 
-
-          .row.justify-content-center.align-items-center(titulo="Análisis forense digital")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_11.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Recopilación de pruebas tras el incidente para determinar la causa y preparar acciones legales. La ciencia forense digital se distingue de la respuesta a incidentes y el análisis, en el aspecto legal relativo a la forma en que se recogen las pruebas (si se manipula un archivo durante la investigación, se arruina cualquier posibilidad de utilizar esa prueba en un tribunal).
-
-          .row.justify-content-center.align-items-center(titulo="Conciencia de la situación y de la seguridad")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_12.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Proporcionar a la organización conciencia de su entorno operativo y de las posibles amenazas. Incluye educación sobre elementos críticos que podrían afectar los objetivos de la organización, amenazas potenciales y acciones contra el riesgo operativo y las amenazas.
-
-          .row.justify-content-center.align-items-center(titulo="Investigación y desarrollo")
-            .col-8.col-lg-2.col-sm-4
-              img(src='@/assets/curso/images/tema4/ico_13.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
-              p.mb-0 Investigar el panorama de las amenazas en constante evolución, desarrollar nuevas herramientas y técnicas, y modificar las herramientas existentes para mejorar su eficacia.
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          .row.justify-content-center.align-items-center(titulo="Potencial de Hidrógeno pH")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 El pH es una medida de la concentración de iones Hidrógeno. Se define como el Logaritmo del inverso de la concentración de iones H+ pH = Log 1/[H+]. Su interpretación va relacionada con la alcalinidad o acidez fitulable, los cuales tienen relevancia por encima de 9.6 o por debajo de 4.4 respectivamente.
+
+          .row.justify-content-center.align-items-center(titulo="Demanda Bioquímica de Oxígeno (DBO)")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-3 Demanda Bioquímica de Oxígeno (DBO)
+
+              p.mb-3 Es la cantidad de oxígeno usado por la actividad respiratoria de los microorganismos que utilizan la materia orgánica del agua residual para crecer y para metabolizar a partir de ella y de otros microorganismos sus componentes celulares. Es necesario distinguir entre el ensayo de la DBO y otros ensayos que se les realizan a las aguas contaminadas como los ensayos del TOC (Carbón Orgánico Total) y de la DQO (Demanda Química de Oxígeno). Los resultados de estos ensayos guardan ciertas relaciones entre sí, pero tienen significados diferentes. La DBO5 se mide como mg/lt o ppm de O2 consumidas durante un período de 5 días a 20 °C en la oscuridad. La DBO es la medida por excelencia utilizada por las agencias reguladoras en todo el mundo para medir el impacto de la contaminación causada por las aguas residuales. 
+
+              p.mb-3 Además, a título meramente indicativo se pueden dar los siguientes parámetros:
+
+              p.mb-0 Estado.............................................................. DBO5; mg/L
+              p.mb-0 Agua Pura...........................................................0 - 20 mg/L    
+              p.mb-0 Agua Levemente Contaminada......................20 - 100 mg/L
+              p.mb-0 Agua Medianamente Contaminada .............100 - 500 mg/L
+              p.mb-0 Agua Muy Contaminada ........................... 500 - 3000 mg/L
+              p.mb-0 Agua Extremadamente Contaminada.....3000 - 15000 mg/L
+          .row.justify-content-center.align-items-center(titulo="La Demanda Química de Oxígeno (DQO):")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Es la cantidad de oxígeno necesario para oxidar la totalidad de la materia oxidable, tanto Orgánica como Mineral. Se mide en ppm o mg/lt. Es el resultado de una oxidación química en húmedo por medio de mezcla Sulfo-Crómica en Caliente. Guarda cierta relación con la DBO5, siendo esta última una fracción de la primera que oscila entre el 2 y el 70 %. En deshechos poco biodegradables como la gasolina y los Hidrocarburos, se dan las relaciones más bajas. En Aguas poco contaminadas deberá ser inferior a 50 ppm. 
+
+          .row.justify-content-center.align-items-center(titulo="Nitritos:")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Suelen ser el resultado de la contaminación con estiércol de ganado y orinas. Se acepta un valor inferior a 0.5 ppm.
+
+          .row.justify-content-center.align-items-center(titulo="Nitratos")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Suelen ser el resultado de la contaminación con residuos de fertilizantes o con aguas residuales de las composteras. Deberá ser inferior a 10 ppm. 
+
+          .row.justify-content-center.align-items-center(titulo="Fosfatos")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Son el resultado de la contaminación con detergentes, aunque también con estiércol y heces. Producen eutrofización de los cuerpos de agua. Deberá ser inferior a 0.2 ppm. 
+
+          .row.justify-content-center.align-items-center(titulo="Conductividad eléctrica")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Este parámetro mide el contenido total de sales en el agua. Deberá ser inferior a 0.5 mmhos/cm. 
+
+          
+
+      .col-8.col-lg-4(data-aos="fade-right") 
+          img(src='@/assets/curso/images/tema4/img_2.png'  alt='')
+     
+    .row.justify-content-center.align-items-star.mb-5
+      .col-8.col-lg-4(data-aos="fade-left") 
+          img(src='@/assets/curso/images/tema4/img_3.png'  alt='').mb-3
+      .col-lg-8(data-aos="fade-right") 
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")
+          .row.justify-content-center.align-items-center(titulo="Sólidos Disueeltos Totales TDS")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Es la cantidad total de sólidos disueltos en el agua. Está relacionada con la conductividad léctrica mediante la fórmula TDS = C.E. (mmhos/cm) x 700; ppm Ss++se mide en ppm. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable la conductividad deberá estar comprendida entre 50 y 1000 micromhos/cm. 
+
+          .row.justify-content-center.align-items-center(titulo="Sólidos Suspendidos Totales SST:")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Es la cantidad de Sólidos que el agua conserva en suspensión después de 10 minutos de asentamiento. Se mide en ppm. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable los Sólidos Totales deberán ser inferiores a 500 ppm, sin especificar si son solamente los Sólidos Suspendidos Totales o si incluyen los Sólidos Disueltos Totales. 
+
+          .row.justify-content-center.align-items-center(titulo="Sólidos sedimentables")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Son aquellos sólidos que sedimentan cuando el agua se deja en reposo durante 1 hora. Se determinan volumétricamente mediante el uso del cono Imhoff. 
+
+          .row.justify-content-center.align-items-center(titulo="Turbidez")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Su unidad de medida es NTU (Nephelometric Turbidity Units) Es una opalescencia que le confieren al agua los sólidos suspendidos de tamaño coloidal. Se mide en NTU. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable la turbidez deberá ser inferior a 5 NTU. 
+
+          .row.justify-content-center.align-items-center(titulo="Hidrocarburos")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Para vertimientos y escorrentías de estaciones de Servicio, se deberán determinar además los siguientes parámetros: contenido de hidrocarburos. (Grasas, Aceites, Combustibles como Gasolina y ACPM). 
+
+          .row.justify-content-center.align-items-center(titulo="Metales pesados totales")
+            .col-md-12.col-lg-12.mb-4.mb-md-0
+              p.mb-0 Ejemplo de estos son el Cobre, Zinc, Cadmio, Mercurio y Plomo. Aparecen en el agua como desechos especiales de ciertos tipos de industria y también como productos de corrosión de las partes electrónicas de los automóviles. Sus niveles están regulados por las diversas agencias dependiendo del tipo de efluente. 
 
 
 
@@ -313,9 +113,7 @@
 <script>
 export default {
   name: 'Tema3',
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -326,5 +124,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

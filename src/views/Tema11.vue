@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 11
-      h1 Normativa ambiental relacionada con el valor máximo admisible.  
+      h1 Normativa ambiental relacionada con el valor máximo admisible
 
     p.mb-3 Para el contexto colombiano la resolución que aplica para el establecimiento de los parámetros a tener en cuenta para el control de vertimientos y los máximos permisibles es la 0631 del 2015, la cual está estructurada por las diferentes actividades económicas (Ministerio de Ambiente y Desarrollo Sostenible, 2015). 
 
@@ -13,7 +13,7 @@
 
     .row.align-items-star.justify-content-center.mb-3
       .col-lg-12
-          p.mb-5 son las procedentes de los hogares, así como las de las instalaciones en las cuales se desarrollan actividades industriales, comerciales o de servicios y que correspondan a:
+          p.mb-5 Son las procedentes de los hogares, así como las de las instalaciones en las cuales se desarrollan actividades industriales, comerciales o de servicios y que correspondan a:
 
     .row.align-items-star.justify-content-center.mb-3
       .col-lg-6(data-aos="fade-right") 

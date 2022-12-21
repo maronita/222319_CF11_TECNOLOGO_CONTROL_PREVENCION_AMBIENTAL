@@ -5,23 +5,28 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 12
-      h1 Balance hídrico a nivel corporativo.
+      h1 Balance hídrico a nivel corporativo
 
     .row.align-items-center.justify-content-center
       .col-lg-12(data-aos="fade-right")  
         img(src='@/assets/curso/images/tema12/img_1.png').mb-3
            
               
-    p.mb-3 p.mb-0 El balance de agua contiene la información documentada y para un periodo específico de tiempo (mínimo bimestral, semestral, anual, etc.) la cuantificación del agua de entrada, teniendo en cuenta todas las fuentes de abastecimiento y las de recirculación, los procesos o actividades que utilizan el recurso y actividades complementarias de tipo doméstico como casino o servicios sanitarios; también su cuantificación de salida discriminada por emisión atmosférica (vapores), agua contenida en productos, subproductos o residuos sólidos (contenido de humedad o lodos) y la vertida al cuerpo de agua o al suelo asociado a un acuífero, ver figura 17. 
+    p.mb-3 El balance de agua contiene la información documentada y para un periodo específico de tiempo (mínimo bimestral, semestral, anual, etc.) la cuantificación del agua de entrada, teniendo en cuenta todas las fuentes de abastecimiento y las de recirculación, los procesos o actividades que utilizan el recurso y actividades complementarias de tipo doméstico como casino o servicios sanitarios; también su cuantificación de salida discriminada por emisión atmosférica (vapores), agua contenida en productos, subproductos o residuos sólidos (contenido de humedad o lodos) y la vertida al cuerpo de agua o al suelo asociado a un acuífero, ver figura 17. 
 
-    .row.align-items-star.justify-content-center.mb-5
-      .col-10.col-lg-5(data-aos="fade-right")
+    .row.align-items-star.justify-content-center.mb-0
+      .col-10.col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
             h5 Figura 18 
             span  Acuarios en zoológico
         img(src='@/assets/curso/images/tema12/img_2.png').mb-3
-      .col-lg-5(data-aos="fade-left")  
-        p.mt-5 El balance de agua contiene la información documentada y para un periodo específico de tiempo (mínimo bimestral, semestral, anual, etc.) la cuantificación del agua de entrada, teniendo en cuenta todas las fuentes de abastecimiento y las de recirculación, los procesos o actividades que utilizan el recurso y actividades complementarias de tipo doméstico como casino o servicios sanitarios; también su cuantificación de salida discriminada por emisión atmosférica (vapores), agua contenida en productos, subproductos o residuos sólidos (contenido de humedad o lodos) y la vertida al cuerpo de agua o al suelo asociado a un acuífero, ver figura 17. 
+      
+    .row.align-items-center.justify-content-center.mb-3
+      .col-lg-8.mt-3
+        .jumbotron-3.p-2.mb-3
+          p.mb-0 Nota. Acuarios, zoológico Piscilago, Melgar. Pedraza, S. (2019). 
+
+    p.mb-3 De acuerdo con el Ministerio de Ambiente y Desarrollo sostenible (2011), para realizar el balance se debe contar con la siguiente información mínima:
        
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -134,7 +139,7 @@
         .row.justify-content-center.align-items-star
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              h5 Figura 20
+              h5 Figura 19
               span  Consumos de agua 
         .row.justify-content-center.align-items-star
           .col-lg-12
@@ -145,7 +150,7 @@
         .jumbotron-1.p-5
           p.mb-3 De allí se pasa a la estimación o cuantificación de la generación de los vertimientos de acuerdo con la actividad o proceso productivo, de servicios, actividad en áreas conexas o secundarias a la empresa, ver figura 20:
             .titulo-sexto.color-acento-contenido
-              h5 Figura 21
+              h5 Figura 20
               span  Esquema de balance hídrico a nivel industrial
           .row.align-items-star.justify-content-center
               .col-10.col-lg-12(data-aos="fade-right")

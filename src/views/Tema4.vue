@@ -76,9 +76,9 @@
           img(src='@/assets/curso/images/tema4/img_3.png'  alt='').mb-3
       .col-lg-8(data-aos="fade-right") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")
-          .row.justify-content-center.align-items-center(titulo="Sólidos Disueeltos Totales TDS")
+          .row.justify-content-center.align-items-center(titulo="Sólidos Disueltos Totales TDS")
             .col-md-12.col-lg-12.mb-4.mb-md-0
-              p.mb-0 Es la cantidad total de sólidos disueltos en el agua. Está relacionada con la conductividad léctrica mediante la fórmula TDS = C.E. (mmhos/cm) x 700; ppm Ss++se mide en ppm. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable la conductividad deberá estar comprendida entre 50 y 1000 micromhos/cm. 
+              p.mb-0 Es la cantidad total de sólidos disueltos en el agua. Está relacionada con la conductividad eléctrica mediante la fórmula TDS = C.E. (mmhos/cm) x 700; ppm Ss++se mide en ppm. El Decreto 475 de 1998 del Ministerio de Salud establece que para agua potable la conductividad deberá estar comprendida entre 50 y 1000 micromhos/cm. 
 
           .row.justify-content-center.align-items-center(titulo="Sólidos Suspendidos Totales SST:")
             .col-md-12.col-lg-12.mb-4.mb-md-0

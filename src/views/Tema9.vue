@@ -53,7 +53,7 @@
      
     h3.mb-3 Canales abiertos: 
 
-    p.mb-3 aplica para efluentes como canales, quebradas, ríos, zanjas etc. En algunas ocasiones se podrá observar la presencia de instalaciones que permiten la salida fácil del vertimiento y con dimensiones conocidas o fácilmente medibles, una vez se conozca el área de la sección transversal de la salida del vertimiento se determina la velocidad de salida. Esta velocidad se puede obtener mediante la utilización de un elemento que flote a lo largo del canal o tubería (método flotador), de manera que pueda determinarse la velocidad superficial del vertimiento o mediante la utilización de un molinete para hallar la velocidad media de la corriente (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
+    p.mb-3 Aplica para efluentes como canales, quebradas, ríos, zanjas etc. En algunas ocasiones se podrá observar la presencia de instalaciones que permiten la salida fácil del vertimiento y con dimensiones conocidas o fácilmente medibles, una vez se conozca el área de la sección transversal de la salida del vertimiento se determina la velocidad de salida. Esta velocidad se puede obtener mediante la utilización de un elemento que flote a lo largo del canal o tubería (método flotador), de manera que pueda determinarse la velocidad superficial del vertimiento o mediante la utilización de un molinete para hallar la velocidad media de la corriente (Instituto de Hidrología, Meteorología y Estudios Ambientales, 2007).
 
     h3.mb-3 Molinete: 
 

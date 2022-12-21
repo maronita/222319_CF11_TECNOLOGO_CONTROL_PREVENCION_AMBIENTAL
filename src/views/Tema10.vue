@@ -59,7 +59,7 @@
             .tarjeta.tarjeta_grey-1
               .p-4 
                 h3.text-center  Tarifa de la tasa retributiva. 
-                p.mb-0.text-centerEs el valor que se cobra por unidad de carga contaminante vertida al recurso hídrico (Ministerio de ambiente y desarrollo sostenible, 2015).
+                p.mb-0.text-centerEs El valor que se cobra por unidad de carga contaminante vertida al recurso hídrico (Ministerio de ambiente y desarrollo sostenible, 2015).
           .tarjeta-avatar.h-100  
             img(src='@/assets/curso/images/tema10/ico_1.svg' alt='imagen relacionada' style='width:150px')
             .tarjeta.tarjeta_grey-1
@@ -95,7 +95,7 @@
 
           p.mb-3 En si la carga contaminante a través de su cuantificación permite al usuario plantear estrategias de tratamiento para reducirla o controlarla de acuerdo con la tecnología de tratamiento de aguas residuales que desee implementar. Es así como este parámetro permite también desarrollar memorias de cálculo y proyecciones de diseño de un tren de tratamiento de aguas residuales de acuerdo con necesidades específicas.
 
-          p.mb-3 La remoción de un porcentaje de carga contaminante, independientemente de la cantidad producida, permite
+          p.mb-3 La remoción de un porcentaje de carga contaminante, independientemente de la cantidad producida, permite permite también desarrollar memorias de cálculo y proyecciones de diseño de un tren de tratamiento de aguas residuales de acuerdo con necesidades específicas.
           p.mb-0 El vertimiento de grandes cantidades de contaminantes a las industrias de gran tamaño con tecnologías obsoletasy exige tratamientos más estrictos para industrias que han implantado procesos o tecnologías limpias, así como a las industrias pequeñas para las cuales el volumen e impacto de los vertimientos no justifica una remoción de carga. Por eso es necesario plantear enfoques de control más efectivos y equitativos (MMAVDT, 2002). 
 
     .row.align-items-center.justify-content-center

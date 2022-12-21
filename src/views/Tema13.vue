@@ -52,6 +52,9 @@
                 p.mb-0 Los productos inflamables que requieran mantenimiento a baja temperatura, no se guardarán en refrigeradores convencionales si no han sido modificados para reducir el riesgo de chispas.
             li.mb-0 
                 i.fas.fa-angle-right.c-check
+                p.mb-0 Las reacciones químicas, en general, deberán ser vigiladas en todo momento.
+            li.mb-0 
+                i.fas.fa-angle-right.c-check
                 p.mb-0 No está permitida la presencia en los laboratorios de personas no autorizadas y debidamente informadas de los riesgos inherentes a los mismos. En su caso se atenderá a la información existente a la entrada de cada laboratorio. (CEU, 2018).
            
 
@@ -119,7 +122,7 @@
 
               li.mb-0 
                   i.fas.fa
-                  p.mb-0 En los trabajos de riesgo, se tendrá en cuenta la composición del tejido con el que están fabricadas.
+                  p.mb-0 Siempre que se quiten guantes protectores. 
              
             li.mb-0 
                 i.fas.fa-angle-right.c-check

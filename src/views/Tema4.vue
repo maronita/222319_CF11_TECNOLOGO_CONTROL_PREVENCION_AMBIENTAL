@@ -50,7 +50,7 @@
             .col-md-12.col-lg-12.mb-4.mb-md-0
               p.mb-0 Es la cantidad de oxígeno necesario para oxidar la totalidad de la materia oxidable, tanto Orgánica como Mineral. Se mide en ppm o mg/lt. Es el resultado de una oxidación química en húmedo por medio de mezcla Sulfo-Crómica en Caliente. Guarda cierta relación con la DBO5, siendo esta última una fracción de la primera que oscila entre el 2 y el 70 %. En deshechos poco biodegradables como la gasolina y los Hidrocarburos, se dan las relaciones más bajas. En Aguas poco contaminadas deberá ser inferior a 50 ppm. 
 
-          .row.justify-content-center.align-items-center(titulo="Nitritos:")
+          .row.justify-content-center.align-items-center(titulo="Nitritos")
             .col-md-12.col-lg-12.mb-4.mb-md-0
               p.mb-0 Suelen ser el resultado de la contaminación con estiércol de ganado y orinas. Se acepta un valor inferior a 0.5 ppm.
 

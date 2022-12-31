@@ -226,18 +226,17 @@ export default {
       referencia:
         'DrCalderonLABS. (s, f). Interpretación del análisis del agua.',
       link:
-        'http://www.drcalderonlabs.com/Metodos/Analisis_De_Aguas/Interpretacion_Analisis_de_Aguas.htm',
+        'https://es.scribd.com/document/391350379/Delgadillo-2015-Como-Aforar-Pequenas-Fuentes-de-Agua-Por-El-Metodo-Volumetrico#',
     },
     {
       referencia:
         'Delgadillo, O. (2014). ¿Cómo aforar pequeñas fuentes de agua por el método volumétrico?',
       link:
-        'http://www.centro-agua.umss.edu.bo/files/shares/material-capacitacion/2014_Aforo_agua_metodo_volumetrico.pdf',
+        'https://es.scribd.com/document/391350379/Delgadillo-2015-Como-Aforar-Pequenas-Fuentes-de-Agua-Por-El-Metodo-Volumetrico#',
     },
     {
       referencia: 'EMASESA. (2018). Balance Hídrico-Energético.',
-      link:
-        'https://www.emasesa.com/emasesa-energetica/balance-hidrico-energetico/.',
+      link: 'https://www.emasesa.com/sostenibilidad/agua-y-energia/',
     },
     {
       referencia:
@@ -275,7 +274,7 @@ export default {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2015). Máximos permisibles en la agroindustria. ',
       link:
-        'https://www.minambiente.gov.co/images/normativa/app/resoluciones/d1-res_631_marz_2015.pdf',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-0883-de-2018.pdf',
     },
     {
       referencia:
@@ -317,7 +316,7 @@ export default {
       referencia:
         'Ministerio de Desarrollo Económico Dirección de Agua Potable y Saneamiento Básico (2002) RAS – 2000. ',
       link:
-        'http://www.minvivienda.gov.co/Documents/ViceministerioAgua/010710_ras_titulo_d_.pdf#search=RAS%202000%20TITULO%20D',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-0883-de-2018.pdf',
     },
     {
       referencia: 'Educaguía (2005). Diagramas causa-efecto.',
